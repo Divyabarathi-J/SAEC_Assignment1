@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyabarathi J | Resume</title>
+    <link rel="icon" href="image1.png" type="image/png">
+
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --primary-color: #00058b;
+            --btn-bg: #a8ebfe;
+            --btn-text: #00058b;
+            --border-color: #dddddd;
+        }
+
+        body.dark-theme {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --primary-color: #80c8ff;
+            --btn-bg: #2d2d2d;
+            --btn-text: #ffffff;
+            --border-color: #444444;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            border-color: #80c8ff;
+            bo
+            padding: 20px;
+            background: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .resume {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h1, h3, .left {
+            color: var(--primary-color);
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 5px;
+        }
+
+        .top-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            justify-content: right;
+            align-items: right;
+        }
+
+        button {
+            color: var(--btn-text);
+            background: var(--btn-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 10px 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .header-info {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid var(--primary-color);
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid var(--border-color);
+            margin: 22px 0;
+        }
+
+        a {
+            color: var(--primary-color);
+        }
+
+        .contact {
+            overflow-wrap: anywhere;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+        }
+
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: var(--btn-bg);
+            color: var(--btn-text);
+        }
+
+        .project {
+            margin-bottom: 22px;
+        }
+
+        .actions {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 25px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+<div class="resume">
+
+    <div class="top-buttons">
+        <button id="themeBtn" type="button">Dark Mode</button>
+    </div>
+
+    <header class="header">
+        <div class="header-info left">
+            <h1>DIVYABARATHI J</h1>
+            <p><strong>Computer Science Engineering Student</strong></p>
+            <button id="pic" type="button">Hide Image</button>
+        </div>
+
+        <img id="picShow" class="profile-pic"
+             src="image.png"
+             alt="Profile picture">
+    </header>
+
+    <hr>
+
+    <p class="contact">
+        <a href="mailto:divyabarathi0311@gmail.com">
+            divyabarathi0311@gmail.com
+        </a>
+        || +91-9962129508 ||
+        <a href="https://www.linkedin.com/in/divyabarathi-j1b76132a4/"
+           target="_blank" rel="noopener noreferrer">LinkedIn</a> ||
+        <a href="https://github.com/Divyabarathi-J"
+           target="_blank" rel="noopener noreferrer">GitHub</a> ||
+        <a href="https://jdivyabarathi-portfolio.netlify.app/"
+           target="_blank" rel="noopener noreferrer">Portfolio</a>
+    </p>
+
+    <hr>
+
+    <section>
+        <h3>PROFILE SUMMARY</h3>
+        <p>
+            Creative and detail-oriented UI/UX Developer with a strong
+            foundation in user interface design, wireframing, and front-end
+            development. Proficient in Figma, Adobe Photoshop, HTML, CSS,
+            and JavaScript. Passionate about crafting intuitive,
+            user-centered digital experiences and contributing innovative
+            design solutions.
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>EDUCATION QUALIFICATION</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>Institution Name</th>
+                    <th>Board of Education</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>S.A. Engineering College</td>
+                    <td>Anna University</td>
+                    <td>95%</td>
+                    <td>2027</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Anita Methodist School</td>
+                    <td>HSLC</td>
+                    <td>85%</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Anita Methodist School</td>
+                    <td>SSLC</td>
+                    <td>100%</td>
+                    <td>2021</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>SKILLS</h3>
+        <ul>
+            <li><strong>Programming Languages:</strong> Java, JavaScript, C, SQL</li>
+            <li><strong>Frontend Technologies:</strong> HTML5, CSS3, React.js, Bootstrap, Tailwind CSS, Vite</li>
+            <li><strong>Backend Technologies:</strong> Node.js, Express.js, Spring Boot</li>
+            <li><strong>Databases:</strong> MongoDB, PostgreSQL, MySQL</li>
+            <li><strong>Authentication &amp; Security:</strong> JWT, Keycloak</li>
+            <li><strong>Developer Tools:</strong> GitHub, Postman, Maven, Figma, Visual Studio Code</li>
+            <li><strong>Core Computer Science:</strong> Data Structures &amp; Algorithms, Object-Oriented Programming</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>CERTIFICATIONS</h3>
+        <ul>
+            <li><strong>Java Programming (NPTEL):</strong> Core Java &amp; OOP (Score: 70%)</li>
+            <li><strong>Full Stack Development:</strong> VEI Technology</li>
+            <li><strong>UI/UX Design with Figma:</strong> NSIC Industry</li>
+            <li><strong>MATLAB Professional Certifications:</strong> 15 Certifications</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>EXPERIENCES</h3>
+        <ul>
+            <li>
+                <strong>Web Developer &amp; Tester Intern</strong><br>
+                Bonbloc Technologies Pvt. Ltd. | June 2026<br>
+                Technologies: Java, Spring Boot, JUnit, Keycloak, Software Testing
+            </li>
+            <br>
+            <li>
+                <strong>Backend Developer Intern</strong><br>
+                Amihive Software Solutions | May 2026<br>
+                Technologies: AI Chatbot Development, OpenAI API, Groq API,
+                REST APIs, Node.js
+            </li>
+            <br>
+            <li>
+                <strong>UI/UX Designer Intern</strong><br>
+                Genex Corporation | March 2025<br>
+                Technologies: Figma, UI/UX Design, Wireframing, Prototyping,
+                User Research
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>PROJECTS</h3>
+
+        <div class="project">
+            <strong>AI-Powered Healthcare Management System</strong>
+            <p>
+                Technologies: React.js, Node.js, Express.js, MongoDB,
+                JWT, Socket.IO
+            </p>
+            <p>
+                Developed an AI-powered healthcare management system to
+                streamline patient records, appointments, and hospital
+                operations, integrating a rehabilitation monitoring module,
+                secure JWT authentication, and optimized backend services.
+            </p>
+        </div>
+
+        <div class="project">
+            <strong>Fundraising Platform</strong>
+            <p>
+                Technologies: React.js, Node.js, Express.js, MongoDB, JWT
+            </p>
+            <p>
+                Developed a full-stack fundraising platform with secure
+                authentication, campaign management, donation tracking,
+                and REST APIs for efficient data management.
+            </p>
+        </div>
+
+        <div class="project">
+            <strong>Real-Time Chat Application</strong>
+            <p>
+                Technologies: Node.js, Express.js, MongoDB, Socket.IO
+            </p>
+            <p>
+                Developed a real-time chat application with private and
+                group messaging, secure user authentication, and
+                Socket.IO-based communication.
+            </p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>ACHIEVEMENTS</h3>
+        <ul>
+            <li>
+                Ranked 1st in the Computer Science Engineering Department
+                for four consecutive semesters (II–V), maintaining a
+                CGPA of 9.6/10.
+            </li>
+            <li>
+                Secured Second Place in a Code Debugging Competition,
+                demonstrating analytical and problem-solving skills.
+            </li>
+            <li>
+                Qualified for the Second Round of an Inter-College Poster
+                Design Competition, showcasing creativity and design thinking.
+            </li>
+        </ul>
+    </section>
+
+    <div class="actions">
+        <button id="downloadBtn" type="button">Download Resume / PDF</button>
+        <span id="counter" aria-live="polite">Button clicks: 0</span>
+    </div>
+
+</div>
+
+<script>
+    // Dark mode toggle
+    const themeBtn = document.getElementById("themeBtn");
+
+    themeBtn.addEventListener("click", function () {
+        document.body.classList.toggle("dark-theme");
+
+        themeBtn.textContent =
+            document.body.classList.contains("dark-theme")
+                ? "Light Mode"
+                : "Dark Mode";
+    });
+
+    // Show/hide profile image
+    const img = document.getElementById("picShow");
+    const picBtn = document.getElementById("pic");
+
+    picBtn.addEventListener("click", function () {
+        const isHidden = img.style.display === "none";
+
+        img.style.display = isHidden ? "block" : "none";
+        picBtn.textContent = isHidden ? "Hide Image" : "Show Image";
+    });
+
+    // Print or save resume as PDF
+    const downloadBtn = document.getElementById("downloadBtn");
+    const counter = document.getElementById("counter");
+    let count = 0;
+
+    downloadBtn.addEventListener("click", function () {
+        count++;
+        counter.textContent = "Button clicks: " + count;
+
+       
+    });
+</script>
+
+</body>
+</html>
