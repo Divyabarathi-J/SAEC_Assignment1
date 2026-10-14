@@ -11,3 +11,6 @@ console.log(s);
 var s = 10;
 s = s + 5;
  consol
+
+
+ 
